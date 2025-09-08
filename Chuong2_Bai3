@@ -1,6 +1,0 @@
-toan = float (input("Nhập điểm toán dốt nát của mày vào: "))
-ly = float (input("Nhập điểm lý ngu dốt của mày vào: "))
-hoa = float (input("Nhập điểm hóa cận bả của mày vào: "))
-dtb = (toan+ly+hoa)/3
-print ("Điểm trung bình = ",dtb)
-print ("Điểm trung bình = ",round(dtb,2))
