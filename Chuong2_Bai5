@@ -1,0 +1,9 @@
+các loại ghi chú trong python
+Ghi chú đơn dòng (Single-line comment)
+Ghi chú này dùng để chú thích một dòng duy nhất trong mã. Để tạo ghi chú đơn dòng, bạn sử dụng ký tự #.
+Ghi chú đa dòng (Multi-line comment)
+Python không có cú pháp ghi chú chính thức cho nhiều dòng, nhưng có thể sử dụng dấu nháy đơn ('''...''') hoặc dấu nháy kép ("""...""") để tạo ghi chú cho nhiều dòng. 
+Mặc dù cách này thực chất là chuỗi văn bản (string), nhưng khi không được gán cho biến hoặc được sử dụng, Python sẽ bỏ qua chúng.
+Ghi chú tài liệu (Docstrings):
+Docstrings (Documentation strings) là một loại ghi chú đặc biệt được sử dụng để mô tả chức năng của một hàm, lớp, hoặc mô-đun trong Python. 
+Docstring được đặt trong cặp dấu nháy đơn ba lần ('''...''') hoặc nháy kép ba lần ("""...""").
