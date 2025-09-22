@@ -1,0 +1,13 @@
+/: Chia thực tế, kết quả là số thực.
+
+//: Chia lấy phần nguyên, kết quả là số nguyên.
+
+%: Lấy phần dư của phép chia.
+
+**: Tính lũy thừa.
+
+and: Phép toán "và" logic, trả về True chỉ khi cả hai đều True.
+
+or: Phép toán "hoặc" logic, trả về True nếu ít nhất một điều kiện là True.
+
+is: Kiểm tra xem hai đối tượng có cùng một địa chỉ bộ nhớ hay không.
