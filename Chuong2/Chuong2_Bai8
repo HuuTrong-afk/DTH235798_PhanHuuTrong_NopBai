@@ -1,0 +1,57 @@
+1.Các loại lỗi trong python
+Lỗi cú pháp (Syntax Errors)
+Đây là lỗi do vi phạm cú pháp của ngôn ngữ Python. Trình thông dịch sẽ không thực thi được chương trình nếu có lỗi này.
+Lỗi khi chạy (Runtime Errors)
+Lỗi xảy ra khi chương trình đang chạy, thường do các thao tác không hợp lệ như chia cho 0, truy cập phần tử không tồn tại, v.v.
+Lỗi logic (Logic Errors)
+Lỗi logic xảy ra khi chương trình không chạy sai về mặt cú pháp hoặc runtime, nhưng kết quả không đúng như mong đợi.
+
+2.Một số loại lỗi thường gặp trong Python
+Tên lỗi	Mô tả
+SyntaxError	Lỗi cú pháp
+NameError	Biến chưa được định nghĩa
+TypeError	Sử dụng sai kiểu dữ liệu
+ValueError	Giá trị không hợp lệ
+IndexError	Truy cập chỉ số không tồn tại
+KeyError	Truy cập khóa không tồn tại trong dict
+ZeroDivisionError	Chia cho 0
+AttributeError	Gọi thuộc tính không tồn tại
+FileNotFoundError	Tệp không tồn tại
+
+3.Cách bắt lỗi trong python
+Python cung cấp khối try–except để xử lý lỗi khi chạy, giúp chương trình không bị dừng đột ngột.
+Cú pháp cơ bản:
+try:
+    # Code có thể gây lỗi
+    ...
+except ErrorType:
+    # Code xử lý lỗi
+    ...
+Ví dụ 1: Bắt lỗi chia cho 0
+try:
+    x = int(input("Nhập tử số: "))
+    y = int(input("Nhập mẫu số: "))
+    result = x / y
+    print("Kết quả:", result)
+except ZeroDivisionError:
+    print("Lỗi: Không thể chia cho 0!")
+Ví dụ 2: Bắt nhiều loại lỗi
+try:
+    a = int(input("Nhập số nguyên: "))
+    b = 10 / a
+except ValueError:
+    print("Lỗi: Bạn phải nhập một số nguyên!")
+except ZeroDivisionError:
+    print("Lỗi: Không được chia cho 0!")
+Ví dụ 3: Dùng else và finally
+else: Thực hiện nếu không có lỗi
+finally: Luôn thực hiện dù có lỗi hay không
+try:
+    num = int(input("Nhập số: "))
+    print("Bạn đã nhập:", num)
+except ValueError:
+    print("Lỗi: Không phải số nguyên!")
+else:
+    print("Không có lỗi xảy ra.")
+finally:
+    print("Khối finally luôn được thực thi.")
