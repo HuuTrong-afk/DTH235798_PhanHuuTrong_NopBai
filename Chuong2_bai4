@@ -1,0 +1,10 @@
+Python hỗ trợ nhiều kiểu dữ liệu cơ bản bao gồm:
+1. int (Integer): Kiểu số nguyên, ví dụ: `10`, `-3`, `0`, `42`.
+2. float (Floating-point number): Kiểu số thực, ví dụ: `3.14`, `-0.001`, `2.0`.
+3. complex (Complex number): Kiểu số phức, ví dụ: `3 + 4j`, `1 - 2j`. Phần thực và phần ảo có thể là số thực hoặc số nguyên.
+4. bool (Boolean): Kiểu logic, chỉ có hai giá trị là `True` hoặc `False`.
+5. str (String): Kiểu chuỗi, dùng để lưu trữ văn bản, ví dụ: `"Hello"`, `'Python'`.
+6. bytes: Kiểu dữ liệu chuỗi byte, dùng để lưu trữ dãy byte, ví dụ: `b'abc'`.
+7. bytearray: Kiểu dữ liệu tương tự như `bytes`, nhưng có thể thay đổi được (mutable).
+8. NoneType: Kiểu dữ liệu đặc biệt có giá trị duy nhất là `None`, thường được sử dụng để biểu thị sự vắng mặt của giá trị.
+Những kiểu dữ liệu này có thể được sử dụng để lưu trữ thông tin cơ bản và có thể được kết hợp với các kiểu dữ liệu phức tạp hơn trong Python.
